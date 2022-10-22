@@ -18,7 +18,7 @@
 .container {
   display: flex;
   justify-content: center;
-  padding: 100px;
+  padding: 30px;
   text-align: center;
   /* background-image: url(images/parkingArea.jpg); */
 }
@@ -74,4 +74,10 @@ h2 {
 }
 h3 {
   padding: 2px;
+}
+.main_heading {
+  color: black;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 2%;
 }

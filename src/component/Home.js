@@ -11,8 +11,9 @@ export const Home = () => {
   return (
     <>
       <nav className="navbar">
-        <h1>Easy Parking</h1>
+        <h2>Easy Parking </h2>
       </nav>
+      <h1 className="main_heading">Add Your Vehicle Details</h1>
       <div className="container">
         <div className="header">
           <h2> Vehicle Number :</h2>
@@ -58,11 +59,11 @@ export const Home = () => {
               )
             }
           >
-            Park Your Car
+            Park Your Vehicle
           </button>
         </div>
       </div>
-      <h1 className="navbar">Garage</h1>
+      <h1 className="navbar">Garage Total Vehicles : {data.length} </h1>
       <div className="slots">
         <Slot data={data} />
       </div>
