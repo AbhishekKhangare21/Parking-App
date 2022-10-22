@@ -1,38 +1,77 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background-color: rgb(6, 2, 0);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
   text-align: center;
+  padding: 5px 50px;
+}
+.main-container {
+  background-color: rgb(255, 255, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 100px;
+  text-align: center;
+  /* background-image: url(images/parkingArea.jpg); */
+}
+.header {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0 7px 30px rgba(62, 9, 11, 0.3);
+}
+input {
+  font-size: 1.4rem;
+  margin: 10px;
+  color: black;
+  padding: 5px;
+  /* border-radius: ; */
+}
+button {
+  width: 90%;
+  align-items: center;
+  margin: auto;
+  font-size: 1.4rem;
+  margin: 10px;
+  cursor: pointer;
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  opacity: 57%;
+  text-align: start;
+  padding-left: 10px;
+  padding-top: 12px;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slot {
+  display: inline-block;
+  margin: 1.6%;
+  width: 30%;
+  padding: 50px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 15px;
+  box-shadow: 0 7px 30px rgba(62, 9, 11, 0.3);
+}
+.garage {
+  text-align: center;
+  background-color: black;
+  padding: 2px;
+  color: rgb(229, 190, 190);
+}
+h3 {
+  padding: 2px;
 }
